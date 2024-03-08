@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+    evennia:
+        # image: evennia/evennia:latest
+        build: .
+        user: 501:20
+        platform: linux/amd64
+        container_name: evennia
+        volumes:
+            - ./game:/usr/src/game
+        ports:
+            - "4001-4002:4001-4002"
+            - "4000:4000"
+        stdin_open: true
+        tty: true
+        # command:
+        #     - /bin/bash
+        #     - -c
+        #     - |
+        #       cd acmud
+        #       evennia start -l

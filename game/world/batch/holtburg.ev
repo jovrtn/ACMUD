@@ -1,0 +1,48 @@
+# Start command:
+
+dig/teleport Holtburg Life Stone
+
+# End command
+# Start command:
+
+spawn wcid_509
+
+# End command
+# Start command:
+
+spawn wcid_44895
+
+# End command
+# Start command:
+
+tunnel/tel e = Holtburg
+
+# End command
+# Start command:
+
+tunnel/tel e = Holtburg Street
+
+# End command
+# Start command:
+
+tunnel/tel e = Holtburg Street
+
+# End command
+# Start command:
+
+tunnel/tel e = Holtburg
+
+# End command
+# Start command:
+
+tunnel/tel n = Holtburg Meeting Hall Vestibule
+
+# End command
+# Start command:
+
+south
+
+# End command
+# Start command:
+
+tunnel/tel s = Agent of the Arcanum
